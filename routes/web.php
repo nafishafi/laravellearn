@@ -6,5 +6,5 @@ Route::get('/', function () {
     return view('home');
 });
 Route::get('/about', function () {
-    return view('about');
+    return view('about', ['nama' => 'Nafis Hafi']);
 });
